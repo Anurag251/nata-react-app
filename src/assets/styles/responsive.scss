@@ -1,0 +1,425 @@
+@media only screen and (max-width: 1300px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .customer {
+    .list {
+      .swiper-container {
+        height: 360px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    max-width: 900px;
+    padding: 0 25px;
+  }
+
+  .banner {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+
+      .content {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .sending-process {
+    .container {
+      .title {
+        font-size: 40px;
+      }
+      .list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+
+  .why-choose-us {
+    .container {
+      .title {
+        font-size: 40px;
+      }
+      .list {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  .customer {
+    margin: 4rem 0;
+
+    .title {
+      font-size: 40px;
+    }
+
+    .list {
+      margin-top: 3rem;
+
+      .swiper-container {
+        height: 450px;
+      }
+    }
+  }
+
+  .mobile-app {
+    margin: 4rem 0;
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 40px;
+
+      .content {
+        .title {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .side-nav-bg {
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    z-index: 10;
+    transition: 0.4s;
+    width: 0;
+
+    &.show {
+      width: 400px;
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav {
+      display: none;
+
+      &.side-nav {
+        display: block;
+        position: fixed;
+        left: 10px;
+        top: 100px;
+        z-index: 21;
+        max-width: 370px;
+        width: 100%;
+
+        ul {
+          flex-direction: column;
+          justify-content: flex-start;
+          padding: 0 2rem;
+          width: 100%;
+          li {
+            margin-right: 2rem;
+            line-height: 5rem;
+            font-weight: 600;
+            font-size: 24px;
+            border-bottom: 1px solid rgba(#fff, 0.4);
+            width: 100%;
+
+            a {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    .logo {
+      height: 50px;
+      justify-content: flex-start;
+
+      img {
+        width: 50%;
+      }
+    }
+
+    .side-nav-btn {
+      display: block;
+      justify-content: flex-end;
+    }
+
+    .sign-in-buttons {
+      display: none;
+
+      &.show-buton {
+        display: block;
+        position: fixed;
+        left: 20px;
+        top: 400px;
+        z-index: 21;
+        max-width: 370px;
+        width: 100%;
+
+        .button {
+          margin-left: 1rem;
+          font-size: 18px;
+          transition: 0.4s;
+        }
+
+        .custom-button {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .customer {
+    .list {
+      .swiper-container {
+        height: 340px;
+      }
+    }
+  }
+
+  .profile {
+    .container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .history {
+    .history-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .banner {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+
+      .content {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .mobile-app {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .footer {
+    .container {
+      img {
+        width: 60%;
+      }
+
+      .list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+
+        .item3 {
+          align-items: flex-start;
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+
+  .about-us {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+
+      .content {
+        .title {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .sending-process {
+    .container {
+      .list {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  .footer {
+    .container {
+      img {
+        width: 60%;
+      }
+
+      .list {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  .profile {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .page-banner {
+    .banner-title {
+      font-size: 50px;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+
+  .history {
+    .history-list {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media only screen and (max-width: 596px) {
+  .banner {
+    .banner-form {
+      padding: 2rem 1rem;
+      .title {
+        font-size: 28px;
+      }
+    }
+  }
+
+  .sending-process {
+    .container {
+      .title {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .why-choose-us {
+    .container {
+      .title {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .customer {
+    .title {
+      font-size: 30px;
+    }
+    .list {
+      .swiper-container {
+        height: 370px;
+        .swiper-slide {
+          .item {
+            padding: 0.7rem 2rem 2rem;
+            border-radius: 20px;
+            position: relative;
+
+            .profile-image {
+              height: 100px;
+              width: 100px;
+            }
+
+            .name {
+              margin-left: 6rem;
+
+              .sub-title {
+                font-size: 24px;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .support {
+      .title {
+        margin-bottom: 1rem;
+        font-size: 30px;
+      }
+
+      ul {
+        li {
+          line-height: 2rem;
+          font-weight: 300;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  .about-us {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .profile {
+    .container {
+      &.full {
+        .edit-profile {
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+
+      .edit-profile {
+        padding: 1rem;
+      }
+    }
+  }
+
+  .page-banner {
+    .banner-title {
+      font-size: 40px;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .header {
+    .sign-in-buttons {
+      &.show-buton {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+        .custom-button {
+          color: rgb(219, 219, 219);
+        }
+      }
+    }
+  }
+
+  .banner {
+    height: 1000px;
+  }
+}
